@@ -1,3 +1,4 @@
+
 FROM golang:latest
 RUN addgroup --gid 10001 app
 RUN adduser --gid 10001 --uid 10001 \
@@ -9,6 +10,8 @@ ADD statics /app/statics/
 
 COPY bin/invoicer /app/invoicer
 USER app
-EXPOSE 8080
+EXPOSE 8000
 WORKDIR /app
 ENTRYPOINT /app/invoicer
+
+
