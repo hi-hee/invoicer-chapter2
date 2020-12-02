@@ -1,10 +1,5 @@
 [
     {
-        "Namespace": "aws:autoscaling:launchconfiguration",
-        "OptionName": "IamInstanceProfile",
-        "Value": "aws-elasticbeanstalk-ec2-role"
-    },
-    {
         "Namespace": "aws:elasticbeanstalk:application:environment", 
         "OptionName": "INVOICER_USE_POSTGRES", 
         "Value": "yes"
@@ -17,7 +12,7 @@
     {
         "Namespace": "aws:elasticbeanstalk:application:environment", 
         "OptionName": "INVOICER_POSTGRES_PASSWORD", 
-        "Value": "S0m3th1ngr4nd0m"
+        "Value": "triopoint"
     }, 
     {
         "Namespace": "aws:elasticbeanstalk:application:environment", 
